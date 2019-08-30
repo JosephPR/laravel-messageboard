@@ -17,4 +17,4 @@ Route::get('/', 'HomeController@index');
 Route::post('/create', 'MessageController@create');
 
 
-Route::get('/message/{id}', 'MessageController@view');
+Route::get('/message/{id}', 'MessageController@show');
